@@ -18,3 +18,9 @@ declare module "@nuxt/types" {
     $analytics: Analytics;
   }
 }
+
+declare global {
+  interface Window {
+    ethereum: any;
+  }
+}
